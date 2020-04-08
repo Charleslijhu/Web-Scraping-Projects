@@ -4,6 +4,7 @@ import time
 from urllib.request import urlopen
 import re
 import os
+import urllib.request as req
 
 total_page_number_to_crawl = 7 #number of pages you want to scrape
 target_url = """https://www.sktelecom.com/en/press/press.do?page.page="""
